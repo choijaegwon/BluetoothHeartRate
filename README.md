@@ -23,4 +23,5 @@ let bodySensorLocationCharacteristicCBUUID = CBUUID(string: "2A38")
 
 # Reference
 https://www.bluetooth.com/specifications/assigned-numbers/  
+https://learn.adafruit.com/build-a-bluetooth-app-using-swift-5?view=all
 https://www.kodeco.com/231-core-bluetooth-tutorial-for-ios-heart-rate-monitor

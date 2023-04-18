@@ -21,6 +21,6 @@ let heartRateMeasurementCharacteristicCBUUID = CBUUID(string: "2A37")
 let bodySensorLocationCharacteristicCBUUID = CBUUID(string: "2A38")
 ~~~
 
-# 출처
+# Reference
 https://www.bluetooth.com/specifications/assigned-numbers/  
 https://www.kodeco.com/231-core-bluetooth-tutorial-for-ios-heart-rate-monitor

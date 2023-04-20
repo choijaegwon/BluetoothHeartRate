@@ -1,4 +1,8 @@
 # BluetoothHeartRate
+## 기본적인 구조
+---
+![image](https://user-images.githubusercontent.com/68246962/233295982-a58b9fc6-6b97-4228-b720-2838afdf85b7.png)
+
 ## 권한 요청
 Info.plist
 ~~~

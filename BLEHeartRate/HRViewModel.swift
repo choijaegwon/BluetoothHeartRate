@@ -79,6 +79,7 @@ class HRViewModel: NSObject, CBCentralManagerDelegate, ObservableObject {
 
 extension HRViewModel: CBPeripheralDelegate {
 
+    /// service 검색에 성공 시 호출되는 메서드
     func peripheral(_ peripheral: CBPeripheral, didDiscoverServices _: Error?) {
         guard let services = peripheral.services else { return }
         for service in services {
@@ -87,6 +88,7 @@ extension HRViewModel: CBPeripheralDelegate {
         }
     }
 
+    /// characteristic 검색에 성공 시 호출되는 메서드
     func peripheral(_ peripheral: CBPeripheral, didDiscoverCharacteristicsFor service: CBService, error _: Error?) {
         guard let characteristics = service.characteristics else { return }
         
